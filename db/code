@@ -1,0 +1,1 @@
+java -jar -Dspring.config.location=yourpath/application.yml CodeGen-1.0-SNAPSHOT.jar

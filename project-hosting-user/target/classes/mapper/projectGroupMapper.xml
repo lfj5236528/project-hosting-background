@@ -1,0 +1,125 @@
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="project.group">
+    <resultMap id="ProjectGroupMap" type="ProjectGroup">
+        <id column="id" property="id"/>
+        <result column="parent_id" property="parentId"/>
+        <result column="name" property="name"/>
+        <result column="desc_message" property="descMessage"/>
+        <result column="leader_id" property="leaderId"/>
+        <result column="members_ids" property="membersIds"/>
+        <result column="extra_json" property="extraJson"/>
+        <result column="created_at" property="createdAt"/>
+        <result column="updated_at" property="updatedAt"/>
+        
+    </resultMap>
+
+    <sql id="tb">
+        project_groups
+    </sql>
+
+    <sql id="cols_all">
+        id, <include refid="cols_exclude_id" />
+    </sql>
+
+    <sql id="cols_exclude_id">
+        parent_id, 
+        name, 
+        desc_message,
+        leader_id, 
+        members_ids, 
+        extra_json, 
+        created_at, 
+        updated_at
+        
+    </sql>
+
+    <sql id="vals">
+        #{parentId}, 
+        #{name}, 
+        #{descMessage},
+        #{leaderId}, 
+        #{membersIds}, 
+        #{extraJson}, 
+        now(), 
+        now()
+        
+    </sql>
+
+    <sql id="criteria">
+        <if test="id != null">AND id = #{id}</if>
+        <if test="parentId != null">AND parent_id = #{parentId}</if>
+        <if test="name != null">AND name = #{name}</if>
+        <if test="descMessage != null">AND desc_message = #{descMessage}</if>
+        <if test="leaderId != null">AND leader_id = #{leaderId}</if>
+        <if test="membersIds != null">AND members_ids = #{membersIds}</if>
+        <if test="extraJson != null">AND extra_json = #{extraJson}</if>
+    </sql>
+
+    <insert id="create" parameterType="ProjectGroup" keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO <include refid="tb" />
+        (<include refid="cols_exclude_id" />)
+        VALUES
+        (<include refid="vals" />)
+    </insert>
+
+
+    <select id="findById" parameterType="long" resultMap="ProjectGroupMap" >
+        SELECT <include refid="cols_all" /> FROM <include refid="tb" />
+        WHERE id = #{id}
+    </select>
+
+
+
+    <update id="update" parameterType="ProjectGroup">
+        UPDATE <include refid="tb"/>
+        <set>
+            <if test="parentId != null">parent_id = #{parentId},</if>
+            <if test="name != null">name = #{name},</if>
+            <if test="descMessage != null">desc_message = #{descMessage},</if>
+            <if test="leaderId != null">leader_id = #{leaderId},</if>
+            <if test="membersIds != null">members_ids = #{membersIds},</if>
+            <if test="extraJson != null">extra_json = #{extraJson},</if>
+            updated_at=now()
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="long">
+        DELETE FROM <include refid="tb"/>
+        WHERE id = #{id}
+    </delete>
+
+
+    <select id="findAll" parameterType="map" resultMap="ProjectGroupMap">
+        SELECT <include refid="cols_all"/> FROM <include refid="tb"/>
+        <where>
+            1=1
+        </where>
+    </select>
+
+    <select id="findChildProjectGroup" parameterType="long" resultMap="ProjectGroupMap">
+        SELECT <include refid="cols_all"/> FROM <include refid="tb"/>
+        <where>
+            parent_id=#{parentId}
+        </where>
+    </select>
+
+
+    <select id="count" parameterType="map" resultType="long">
+        SELECT count(1) FROM <include refid="tb"/>
+        <where>
+            <include refid="criteria"/>
+        </where>
+    </select>
+
+    <select id="paging" parameterType="map" resultMap="ProjectGroupMap">
+        SELECT <include refid="cols_all"/> FROM <include refid="tb"/>
+        <where>
+            <include refid="criteria"/>
+        </where>
+        LIMIT #{offset}, #{limit}
+    </select>
+
+</mapper>

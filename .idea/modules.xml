@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/project-hosting.iml" filepath="$PROJECT_DIR$/project-hosting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-hosting-common/project-hosting-common.iml" filepath="$PROJECT_DIR$/project-hosting-common/project-hosting-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-hosting-core/project-hosting-core.iml" filepath="$PROJECT_DIR$/project-hosting-core/project-hosting-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-hosting-core-api/project-hosting-core-api.iml" filepath="$PROJECT_DIR$/project-hosting-core-api/project-hosting-core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-hosting-user/project-hosting-user.iml" filepath="$PROJECT_DIR$/project-hosting-user/project-hosting-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-hosting-user-api/project-hosting-user-api.iml" filepath="$PROJECT_DIR$/project-hosting-user-api/project-hosting-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-hosting-web/project-hosting-web.iml" filepath="$PROJECT_DIR$/project-hosting-web/project-hosting-web.iml" />
+    </modules>
+  </component>
+</project>
