@@ -89,21 +89,25 @@ public class NotifyArticles {
     /**
      * 获得用户的公告
      *
-     * @param userId 用户ID
      * @return 公告信息
      */
 
     @RequestMapping(value = "/find-by-userId", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public Response<List<NotifyArticle>> findNotifyArticlesByUserId(Long userId) {
+    public Response<List<NotifyArticle>> findNotifyArticlesByUserId(HttpServletRequest httpServletRequest) {
 
         Response<List<NotifyArticle>> response = new Response<List<NotifyArticle>>();
         List<NotifyArticle> list = notifyArticleReadService.findAll();
         List<NotifyArticle> resultList = new ArrayList<NotifyArticle>();
-
+        HttpSession httpSession = httpServletRequest.getSession();
+        BasicUser basicUser = (BasicUser) httpSession.getAttribute("loginUser@"+httpSession.getId());
+        if (Arguments.isNull(basicUser)) {
+            response.setMessage("用户未登陆!");
+            return response;
+        }
 
         for (NotifyArticle notifyArticle : list) {
             List<String> members = notifyArticle.getNotifyMembersList();
-            if (members.contains(String.valueOf(userId))) {
+            if (members.contains(String.valueOf(basicUser.getId()))) {
                 resultList.add(notifyArticle);
             }
         }

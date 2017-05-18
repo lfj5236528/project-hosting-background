@@ -80,7 +80,7 @@ CREATE TABLE `notify_articles` (
   `user_id` int(11) DEFAULT NULL COMMENT '发布者ID',
   `user_name` varchar(20) DEFAULT NULL COMMENT'发布者名称',
   `theme` varchar(2048) COLLATE utf8_unicode_ci NOT NULL COMMENT '主题',
-  `content` text COLLATE utf8_unicode_ci NOT NULL COMMENT '内容',
+  `content` text COLLATE utf8_unicode_ci COMMENT '内容',
   `status` int(11) DEFAULT 0 COMMENT '状态,1:发布,-1：删除',
   `notify_members` varchar(2048)  DEFAULT NULL COMMENT  '通知对象,可多个,json格式',
   `extra_json` varchar(2048)DEFAULT NULL COMMENT '额外信息',

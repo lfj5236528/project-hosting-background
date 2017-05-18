@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977447a9-53e2-4781-9c57-37842aec736a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/jobs/TaskHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectWriteService.java" afterPath="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectWriteService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.java" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java" afterPath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java" afterPath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/scheme.sql" afterPath="$PROJECT_DIR$/db/scheme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectMapper.xml" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/article/NotifyArticles.java" afterPath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/article/NotifyArticles.java" />
     </list>
     <ignored path="project-hosting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,12 +44,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Paging.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/model/Paging.java">
+      <file leaf-file-name="TaskHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/jobs/TaskHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="42" column="62" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#894#907#0" expanded="true" />
+                <element signature="e#960#973#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotifyArticles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/article/NotifyArticles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2508">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicUserWriteServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/BasicUserWriteServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicUserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/BasicUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scheme.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/scheme.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+              <folding>
+                <marker date="1495100081930" expanded="true" signature="2686:3321" placeholder="CREATE TABLE... notify_articles" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectHostingUserConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notifyArticleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/notifyArticleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1034">
+              <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+              <folding>
+                <marker date="1494327959948" expanded="true" signature="2102:2232" placeholder="INSERT INTO " />
+                <marker date="1494327959948" expanded="true" signature="2875:2963" placeholder="SELECT FROM WHERE" />
+                <marker date="1494327959948" expanded="true" signature="3065:3148" placeholder="SELECT FROM WHERE" />
+                <marker date="1494327959948" expanded="true" signature="3529:4121" placeholder="UPDATE user_... " />
+                <marker date="1494327959948" expanded="true" signature="4191:4249" placeholder="DELETE FROM " />
+                <marker date="1494327959948" expanded="true" signature="4805:4825" placeholder="SELECT count... " />
+                <marker date="1494327959948" expanded="true" signature="5018:5186" placeholder="SELECT FROM LIMIT" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBatisDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/dao/MyBatisDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="e#914#915#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,43 +155,8 @@
       <file leaf-file-name="ProjectGroups.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/group/ProjectGroups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="67" column="56" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Projects.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="191" column="23" selection-start-line="191" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-              <folding>
-                <element signature="e#7137#7146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectWriteServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding>
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectWriteService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectWriteService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="25">
+              <caret line="59" column="99" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -122,10 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/BasicUserReadServiceImpl.java" />
-        <option value="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/BasicUserMapper.xml" />
-        <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectGroup.java" />
-        <option value="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectGroupMapper.xml" />
         <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/Project.java" />
         <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectGroupReadService.java" />
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectGroupReadServiceImpl.java" />
@@ -139,7 +199,6 @@
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectGroupWriteServiceImpl.java" />
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectReadServiceImpl.java" />
         <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectReadService.java" />
-        <option value="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectMapper.xml" />
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/ProjectTaskDao.java" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/DataBaseCode.java" />
         <option value="$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/Main.java" />
@@ -147,9 +206,7 @@
         <option value="$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/MysqlUtils.java" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/interceptors/CrossOriginInterceptor.java" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/code/DataBaseCode.java" />
-        <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/article/NotifyArticles.java" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/ProjectHostingWebConfiguration.java" />
-        <option value="$PROJECT_DIR$/db/scheme.sql" />
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/UserPostDao.java" />
         <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/UserPostReadServiceImpl.java" />
         <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/UserPostWriteService.java" />
@@ -173,6 +230,13 @@
         <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectWriteService.java" />
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.java" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java" />
+        <option value="$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/UserUtils.java" />
+        <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/jobs/TaskHandler.java" />
+        <option value="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectMapper.xml" />
+        <option value="$PROJECT_DIR$/db/scheme.sql" />
+        <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java" />
+        <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/jobs/TaskHandler.java" />
+        <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/article/NotifyArticles.java" />
       </list>
     </option>
   </component>
@@ -483,7 +547,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="group" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,7 +585,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="group" />
+              <option name="myItemId" value="article" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,74 +670,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -826,6 +822,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="serivce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1544,12 +1608,12 @@
       <workItem from="1494917504352" duration="900000" />
       <workItem from="1494998228667" duration="251000" />
       <workItem from="1495025330206" duration="57000" />
-      <workItem from="1495086635661" duration="4736000" />
+      <workItem from="1495086635661" duration="14349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284422000" />
+    <option name="totallyTimeSpent" value="294035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1598,7 +1662,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="228" />
+      <option name="time" value="246" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1607,112 +1671,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/BasicUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="132" column="41" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/sql/ResultSetMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-888">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/Arguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/Main.java" />
-    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/model/TableInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/MysqlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE.jar!/org/springframework/web/bind/annotation/CrossOrigin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/code/DataBaseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/article/NotifyArticles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/ProjectHostingWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/interceptors/CrossOriginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/ProjectHostingWebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/scheme.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/ProjectTaskDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
@@ -1774,20 +1732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/BasicUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/dao/MyBatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1854,13 +1798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectTaskReadServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectTaskMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1899,19 +1836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/enums/TaskStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#679#680#0" expanded="false" />
-            <element signature="e#707#708#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#762#763#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/model/Paging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1925,17 +1849,9 @@
         <state relative-caret-position="350">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/group/ProjectGroups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="67" column="56" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1947,32 +1863,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="191" column="23" selection-start-line="191" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding>
-            <element signature="e#7137#7146#0" expanded="true" />
+            <element signature="e#7137#7146#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectWriteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="275">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/Arguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/UserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectTaskReadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#1508#1509#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/code/DataBaseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#391#392#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/ProjectDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/BasicUserReadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/enums/TaskStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#651#652#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar!/org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="74" column="65" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <marker date="1495099301517" expanded="true" signature="1774:1904" placeholder="INSERT INTO " />
+            <marker date="1495099301517" expanded="true" signature="2001:2089" placeholder="SELECT FROM WHERE" />
+            <marker date="1495099301517" expanded="true" signature="2163:2246" placeholder="SELECT FROM WHERE" />
+            <marker date="1495099301517" expanded="true" signature="2348:2451" placeholder="SELECT FROM WHERE" />
+            <marker date="1495099301517" expanded="true" signature="2525:3030" placeholder="UPDATE name " />
+            <marker date="1495099301517" expanded="true" signature="3100:3158" placeholder="DELETE FROM " />
+            <marker date="1495099301517" expanded="true" signature="3247:3267" placeholder="SELECT count... " />
+            <marker date="1495099301517" expanded="true" signature="3454:3622" placeholder="SELECT FROM LIMIT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/scheme.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+          <folding>
+            <marker date="1495100081930" expanded="true" signature="2686:3321" placeholder="CREATE TABLE... notify_articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/BasicUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/BasicUserWriteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/notifyArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+          <folding>
+            <marker date="1494327959948" expanded="true" signature="2102:2232" placeholder="INSERT INTO " />
+            <marker date="1494327959948" expanded="true" signature="2875:2963" placeholder="SELECT FROM WHERE" />
+            <marker date="1494327959948" expanded="true" signature="3065:3148" placeholder="SELECT FROM WHERE" />
+            <marker date="1494327959948" expanded="true" signature="3529:4121" placeholder="UPDATE user_... " />
+            <marker date="1494327959948" expanded="true" signature="4191:4249" placeholder="DELETE FROM " />
+            <marker date="1494327959948" expanded="true" signature="4805:4825" placeholder="SELECT count... " />
+            <marker date="1494327959948" expanded="true" signature="5018:5186" placeholder="SELECT FROM LIMIT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/dao/MyBatisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/group/ProjectGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="59" column="99" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/article/NotifyArticles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2508">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/jobs/TaskHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="42" column="62" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#894#907#0" expanded="true" />
+            <element signature="e#960#973#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
