@@ -342,7 +342,7 @@ public class ProjectTasks {
             List<ProjectTaskDetail> result = new ArrayList<ProjectTaskDetail>();
             List<ProjectTask> all = projectTaskReadeService.findAll();
             for (ProjectTask projectTask :all){
-                if (projectTask.getUserIdsList().contains(userId)&&projectTask.getParentId()!=-1){
+                if (projectTask.getUserIdsList()!=null&&projectTask.getUserIdsList().contains(userId)&&projectTask.getParentId()!=-1){
                     ProjectTaskDetail projectTaskDetail = new ProjectTaskDetail();
                     projectTaskDetail.setProjectTask(projectTask);
                     Long projectId = projectTask.getProjectId();

@@ -19,4 +19,9 @@ public class ProjectWriteServiceImpl implements ProjectWriteService {
     public Boolean update(Project project) {
         return projectDao.update(project);
     }
+
+    @Override
+    public Boolean create(Project project) {
+         return projectDao.create(project);
+    }
 }

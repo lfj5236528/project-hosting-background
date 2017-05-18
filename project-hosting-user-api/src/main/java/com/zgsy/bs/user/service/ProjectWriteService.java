@@ -7,4 +7,6 @@ public interface ProjectWriteService {
 
 
     public Boolean update(Project project);
+    public Boolean create(Project project);
+
 }

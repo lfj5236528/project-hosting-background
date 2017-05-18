@@ -92,7 +92,7 @@ public class Projects {
     @RequestMapping(value = "/add-group",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_VALUE)
     public Response<Boolean> findProjectGroupsById(Long id,Long groupId){
        List<ProjectGroup> lists= projectGroupReadService.findAll();
-        groupId= lists.get(lists.size()-1).getId()+1;
+        groupId= lists.get(lists.size()-1).getId();
         Response<Boolean> response =new Response<Boolean>();
         Project project = projectReadService.findById(id);
         List<String> ids = project.getGroupsIdsList();
@@ -167,6 +167,31 @@ public class Projects {
         return response;
     }
 
+    @RequestMapping(value = "/create",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_VALUE)
+    public Response<Boolean> createProject(String name,HttpServletRequest httpServletRequest){
+        Response<Boolean> response = new Response<Boolean>();
+
+        HttpSession httpSession = httpServletRequest.getSession();
+        BasicUser basicUser =(BasicUser)httpSession.getAttribute("loginUser@"+httpSession.getId());
+        if (Arguments.isNull(basicUser)){
+            response.setMessage("用户未登录！");
+            return  response;
+        }
+        if(Arguments.isNull(name)){
+            response.setMessage("项目名称不能为空！");
+            return  response;
+        }
+        Project project = new Project();
+        project.setName(name);
+        project.setCreaterId(basicUser.getId());
+       if(!projectWriteService.create(project)){
+           response.setMessage("项目启动失败！");
+           return  response;
+       }
+        response.setMessage("项目启动成功，请去创建团队和任务清单以便开启项目！");
+        response.setResult(Boolean.TRUE);
+        return  response;
+    }
 
 
 
