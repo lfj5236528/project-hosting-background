@@ -115,7 +115,7 @@
 
     <select id="findChildTaskByParentIdAndStatus" parameterType="map" resultMap="ProjectTaskMap" >
         SELECT <include refid="cols_all" /> FROM <include refid="tb" />
-        WHERE parent_id = #{parentId} AND status=#{status}
+        WHERE project_id = #{parentId} AND status=#{status} AND parent_id !=-1
     </select>
 
 

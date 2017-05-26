@@ -23,8 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="project-hosting-common" />
-        <module name="project-hosting-core" />
-        <module name="project-hosting-core-api" />
         <module name="project-hosting-user" />
         <module name="project-hosting-user-api" />
         <module name="project-hosting-web" />

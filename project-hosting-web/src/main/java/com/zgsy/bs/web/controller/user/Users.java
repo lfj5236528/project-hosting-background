@@ -30,17 +30,12 @@ import java.util.List;
 @CrossOrigin
 public class Users {
 
-
     @Reference(version = "1.0.0")
     private BasicUserWriteService basicUserWriteService;
-
-
     @Reference(version = "1.0.0")
     private BasicUserReadService basicUserReadService;
-
     @Reference(version = "1.0.0")
     private UserAndGroupManager userAndGroupManager;
-
     @Reference(version = "1.0.0")
     private ProjectGroupReadService projectGroupReadService;
 
@@ -106,7 +101,6 @@ public class Users {
                 return response;
             }
         }
-
     }
 
     /**
@@ -132,14 +126,12 @@ public class Users {
                 response.setResult(Boolean.FALSE);
                 response.setMessage("旧密码输入错误!");
                 return response;
-
             }
         }
         log.error("user not login!");
         response.setResult(Boolean.FALSE);
         response.setMessage("用户未登录!");
         return response;
-
     }
 
 
@@ -159,10 +151,7 @@ public class Users {
         response.setResult(Boolean.FALSE);
         response.setMessage("用户未登录!");
         return response;
-
     }
-
-
 
     /**
      * 添加用户至某团队
@@ -180,7 +169,6 @@ public class Users {
             response.setMessage("操作的用户不存在!");
             return response;
         }
-
         ProjectGroup projectGroup = projectGroupReadService.findById(groupId);
 
         if (Arguments.isNull(projectGroup)) {
@@ -188,15 +176,12 @@ public class Users {
             response.setMessage("该团队不存在!");
             return response;
         }
-
         List<String> groupList = basicUser.getGroupIdsList();
-
         if (groupList.contains(String.valueOf(groupId))) {
             response.setResult(Boolean.FALSE);
             response.setMessage("该用户已经存在该团队!");
             return response;
         }
-
         groupList.add(String.valueOf(groupId));
         basicUser.setGroupIdsList(groupList);
         List<String> lists = projectGroup.getMembersIdsList();
@@ -211,7 +196,6 @@ public class Users {
         response.setResult(Boolean.TRUE);
         response.setMessage("添加团队成功!");
         return response;
-
     }
 
     /**
@@ -224,7 +208,6 @@ public class Users {
 
     @RequestMapping(value = "/remove-group", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public Response<Boolean> removeUserGroup(Long userId, Long groupId) {
-
         Response<Boolean> response = new Response<Boolean>();
         BasicUser basicUser = basicUserReadService.findBasicUserById(userId);
         if (Arguments.isNull(basicUser)) {
@@ -232,27 +215,21 @@ public class Users {
             response.setMessage("操作的用户不存在!");
             return response;
         }
-
         ProjectGroup projectGroup = projectGroupReadService.findById(groupId);
-
         if (Arguments.isNull(projectGroup)) {
             response.setResult(Boolean.FALSE);
             response.setMessage("该团队不存在!");
             return response;
         }
-
         List<String> groupList = basicUser.getGroupIdsList();
-
         if (!groupList.contains(String.valueOf(groupId))) {
             response.setResult(Boolean.FALSE);
             response.setMessage("该用户不存在该团队!");
             return response;
         }
-
         groupList.remove(String.valueOf(groupId));
         basicUser.setGroupIdsList(groupList);
         List<String> lists = projectGroup.getMembersIdsList();
-
         if (!lists.contains(String.valueOf(userId))) {
             response.setResult(Boolean.FALSE);
             response.setMessage("该用户不存在该团队!");
@@ -263,10 +240,7 @@ public class Users {
         response.setResult(Boolean.TRUE);
         response.setMessage("移除团队成功!");
         return response;
-
-
     }
-
 
     /**
      * 获取对应用户所在的团队
@@ -275,10 +249,8 @@ public class Users {
      * @return 团队信息
      */
     public Response<List<ProjectGroup>> findProjectGroupsByUserId(Long userId) {
-
         Response<List<ProjectGroup>> response = new Response<List<ProjectGroup>>();
         List<ProjectGroup> lists = new ArrayList<ProjectGroup>();
-
         BasicUser basicUser = basicUserReadService.findBasicUserById(userId);
         if (Arguments.isNull(basicUser)) {
             response.setInvoking(Boolean.FALSE);
@@ -286,7 +258,6 @@ public class Users {
             return response;
         }
         List<String> rootLists = basicUser.getGroupIdsList();
-
         for (String id : rootLists) {
             Long groupId = Long.valueOf(id);
             ProjectGroup projectGroup = projectGroupReadService.findById(groupId);
@@ -316,9 +287,7 @@ public class Users {
             response.setMessage("用户未登录");
             return response;
         }
-
     }
-
 
     /**
      * 用户注销
@@ -343,9 +312,7 @@ public class Users {
     }
 
 
-
     @RequestMapping(value = "/findAll", method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
-
     public  Response<List<BasicUser>> findAllUser(@RequestParam(required=false) Long groupId){
         Response<List<BasicUser>> response =new Response<List<BasicUser>>();
         List<BasicUser> list = basicUserReadService.findAll();
@@ -359,16 +326,9 @@ public class Users {
                     i--;
                 }
             }
-
         }
-
         response.setResult(list);
-
         return response;
-
     }
-
-
-
 }
 

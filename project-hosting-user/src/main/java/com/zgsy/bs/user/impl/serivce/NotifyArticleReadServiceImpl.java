@@ -12,7 +12,7 @@ import java.util.List;
  * Created by liangfujie on 16/12/21
  */
 @Service(version = "1.0.0")
-public class NotifyArticleReadServiceImpl implements NotifyArticleReadService{
+public class NotifyArticleReadServiceImpl implements NotifyArticleReadService {
 
     @Autowired
     private NotifyArticleDao notifyArticleDao;

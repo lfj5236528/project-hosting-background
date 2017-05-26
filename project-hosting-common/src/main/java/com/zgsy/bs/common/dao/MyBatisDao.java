@@ -15,15 +15,12 @@ import java.util.Map;
 /**
  * 所有继承此类的子类需要调用父类构造函数,传如指定的nameSpace.
  *
- * @param <T>
+ *
  */
-
 public abstract class MyBatisDao<T> {
     @Autowired
     private SqlSession sqlSession;
-
     private String nameSpace;
-
     public MyBatisDao(String nameSpace) {
         this.nameSpace = nameSpace;
     }
@@ -45,20 +42,16 @@ public abstract class MyBatisDao<T> {
     }
 
     public Boolean delete(Long id) {
-
         return sqlSession.delete(this.getSqlId("delete"), id) == 1;
     }
 
     public T findById(Long id) {
         return sqlSession.selectOne(this.getSqlId("findById"), id);
-
     }
-
     public List<T> findAll() {
         return sqlSession.selectList(this.getSqlId("findAll"));
 
     }
-
 
     public Paging<T> paging(Integer pageNo, Integer pageSize, Map<String, String> criteria) {
         Paging<T> paging = new Paging<T>();
@@ -73,11 +66,8 @@ public abstract class MyBatisDao<T> {
         paging.setData(lists);
         return paging;
     }
-
     public Long counts(Map<String, String> criteria) {
         return sqlSession.selectOne(this.getSqlId("counts"), criteria);
     }
-
-
 
 }

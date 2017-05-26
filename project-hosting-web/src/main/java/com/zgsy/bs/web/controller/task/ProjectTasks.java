@@ -9,6 +9,7 @@ import com.zgsy.bs.user.dto.ProjectTaskModel;
 import com.zgsy.bs.user.dto.TaskUser;
 import com.zgsy.bs.user.enums.TaskStatus;
 import com.zgsy.bs.user.model.BasicUser;
+import com.zgsy.bs.user.model.Project;
 import com.zgsy.bs.user.model.ProjectTask;
 import com.zgsy.bs.user.service.BasicUserReadService;
 import com.zgsy.bs.user.service.ProjectReadService;
@@ -20,10 +21,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * Created by Java on 2017/1/14
@@ -72,6 +71,11 @@ public class ProjectTasks {
             return response;
 
         }
+
+
+        List<Project> projects = projectReadService.findByCreaterId(basicUser.getId());
+        projectTask.setProjectId(projects.get(projectTask.getProjectId().intValue()-1).getId());
+
         if (!projectTaskWriteService.createProjectTask(projectTask)) {
             log.error("create.project.task.failed");
             response.setMessage("创建任务失败！");
@@ -87,8 +91,18 @@ public class ProjectTasks {
 
     //获取该项目下所有的模块
     @RequestMapping(value = "/find-project-models",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
-    public Response<List<ProjectTask>> findProjectModels(Long projectId){
+    public Response<List<ProjectTask>> findProjectModels(Long projectId,HttpServletRequest httpServletRequest){
+
         Response<List<ProjectTask>> response =new Response<List<ProjectTask>>();
+        HttpSession httpSession = httpServletRequest.getSession();
+        BasicUser basicUser =(BasicUser)httpSession.getAttribute("loginUser@"+httpSession.getId());
+        if (basicUser==null){
+            response.setMessage("用户未登录！");
+            return response;
+
+        }
+        List<Project> projects = projectReadService.findByCreaterId(basicUser.getId());
+        projectId = projects.get(projectId.intValue()-1).getId();
         List<ProjectTask> list = projectTaskReadeService.findProjectModels(projectId);
         response.setResult(list);
         response.setMessage("获取项目模块成功！");
@@ -156,6 +170,14 @@ public class ProjectTasks {
             maps.put("createrName", basicUser.getName());
             maps.put("createrId", String.valueOf(basicUser.getId()));
             projectTask.setExtras(maps);
+            Long projectId = projectTask.getProjectId();
+            List<Project> projects = projectReadService.findByCreaterId(basicUser.getId());
+            if (projects.size()>0){
+                projectId = projects.get(projectId.intValue()-1).getId();
+            }
+            projectTask.setProjectId(projectId);
+
+
         } else {
             response.setMessage("用户未登录！");
             response.setResult(Boolean.FALSE);
@@ -289,11 +311,29 @@ public class ProjectTasks {
 
     //获取某个项目某个状态的任务
     @RequestMapping(value = "/find-by-status",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
-    public Response<List<ProjectTask>> findChildTaskByParentIdAndStatus(Long parentId,Integer status){
+    public Response<List<ProjectTask>> findChildTaskByParentIdAndStatus(Long parentId,Integer status,HttpServletRequest httpServletRequest){
         Response<List<ProjectTask>>  response =new Response<List<ProjectTask>>();
-        List<ProjectTask> list = projectTaskReadeService.findChildTaskByParentIdAndStatus(parentId,status);
-        response.setMessage("获取任务成功！");
-        response.setResult(list);
+
+        HttpSession httpSession = httpServletRequest.getSession();
+        BasicUser basicUser =(BasicUser)httpSession.getAttribute("loginUser@"+httpSession.getId());
+        if (basicUser==null){
+            response.setMessage("用户未登录！");
+            return response;
+
+        }
+        List<ProjectTask> projectTasks = projectTaskReadeService.findAll();
+        List<ProjectTask> projectTaskList = new ArrayList<ProjectTask>();
+        if (projectTasks.size()>0){
+            for (ProjectTask p : projectTasks){
+                if (p.getStatus() ==status&&p.getParentId()!=-1&&p.getUserIdsList()!=null&&p.getUserIdsList().contains(basicUser.getId().toString())){
+                    projectTaskList.add(p);
+                }
+            }
+            response.setMessage("获取任务成功！");
+            response.setResult(projectTaskList);
+        }
+
+
         return  response;
 
     }
@@ -375,7 +415,10 @@ public class ProjectTasks {
         Response<Boolean> response =new Response<Boolean>();
 
         ProjectTask projectTask =projectTaskReadeService.findById(taskId);
-
+        Map<String,String> map =  projectTask.getExtras();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        map.put("finishDate",sdf.format(new Date()));
+        projectTask.setExtras(map);
         if (projectTask.getStatus()==TaskStatus.TASK_NORMAL.index()){
             projectTask.setStatus(TaskStatus.TASK_FINISH.index());
             if(!projectTaskWriteService.updateProjectTask(projectTask)){

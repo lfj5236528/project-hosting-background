@@ -43,9 +43,7 @@ public class ProjectGroup implements Serializable{
 
     @JsonIgnore
     private Map<String, String> extras;
-
     private Date createdAt;
-
     private Date updatedAt;
 
 

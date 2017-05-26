@@ -164,6 +164,7 @@ public class ProjectGroups {
         if(projectGroupWriteService.deleteProjectGroup(groupId)){
             List<Project> projects = projectReadService.findAll();
             for(Project project : projects){
+                if (project.getGroupsIdsList()==null)continue;
                 if(project.getGroupsIdsList().contains(String.valueOf(groupId))){
                    List<String> list= project.getGroupsIdsList();
                     list.remove(String.valueOf(groupId));

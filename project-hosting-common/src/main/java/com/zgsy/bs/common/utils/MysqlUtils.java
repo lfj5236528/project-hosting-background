@@ -101,10 +101,5 @@ public class MysqlUtils {
     }
 
 
-//    public static void main(String[] args) {
-//        initMysqlUtils("jdbc:mysql://localhost/project_hosting?user=root&password=root");
-//        System.out.println("aa");
-//    }
-
 
 }

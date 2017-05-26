@@ -23,5 +23,4 @@ public class BasicUserDao extends MyBatisDao<BasicUser>{
         return this.getSqlSession().selectList(getSqlId("findAll"));
 
     }
-
 }

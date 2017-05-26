@@ -49,9 +49,41 @@ public class Projects {
             response.setMessage("获取失败！");
             return  response;
         }
-        Long createrId = basicUser.getId();
-        List<Project> lists = projectReadService.findByCreaterId(createrId);
+
+
+
+
+        List<Project> tempProjects = new ArrayList<Project>();
+        String userId= String.valueOf(basicUser.getId());
+        List<ProjectGroup> projectGroups = projectGroupReadService.findAll();
+        List<ProjectGroup> inList = new ArrayList<ProjectGroup>();
+        if(projectGroups.size()>0) {
+            for (ProjectGroup projectGroup : projectGroups) {
+                if (projectGroup.getMembersIdsList().contains(userId)) {
+                    inList.add(projectGroup);
+                }
+            }
+        }
+
+        if (inList.size()>0){
+        List<Project> projects = projectReadService.findAll();
+        if (projects.size()>0){
+            for (ProjectGroup projectGroup :inList){
+                for (Project p : projects){
+                    if (p.getCreaterId()!=basicUser.getId()&&p.getGroupsIdsList().contains(projectGroup.getId().toString())&&!tempProjects.contains(p)){
+                        tempProjects.add(p);
+                    }
+                }
+            }
+
+        }
+
+        }
+
+
+        List<Project> lists = projectReadService.findByCreaterId(basicUser.getId());
         if (lists.size()>=0){
+            lists.addAll(tempProjects);
             response.setResult(lists);
             response.setMessage("获取成功！");
         }else {
@@ -71,35 +103,68 @@ public class Projects {
 
 
     @RequestMapping(value = "/find-group",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
-    public Response<List<ProjectGroup>> findProjectGroupsById(Long id){
+    public Response<List<ProjectGroup>> findProjectGroupsById(Long id,HttpServletRequest httpServletRequest){
         Response<List<ProjectGroup>> response =new Response<List<ProjectGroup>>();
-        Project project = projectReadService.findById(id);
 
-        List<String> ids = project.getGroupsIdsList();
-        List<ProjectGroup> lists =new ArrayList<ProjectGroup>();
-
-        for(String i: ids){
-            Long index =Long.parseLong(i);
-            lists.add( projectGroupReadService.findById(index));
+        HttpSession httpSession = httpServletRequest.getSession();
+        BasicUser basicUser =(BasicUser)httpSession.getAttribute("loginUser@"+httpSession.getId());
+        if (basicUser==null){
+            response.setMessage("用户未登录！");
+            return response;
         }
-        response.setResult(lists);
+        List<Project> projects = projectReadService.findByCreaterId(basicUser.getId());
+        if (projects.size()>0){
+            Project project = projects.get(id.intValue()-1);
+            List<String> ids = project.getGroupsIdsList();
+            List<ProjectGroup> lists =new ArrayList<ProjectGroup>();
+            if (ids==null){
+                ids=new ArrayList<String>();
+            }
+
+            for(String i: ids){
+                Long index =Long.parseLong(i);
+                lists.add( projectGroupReadService.findById(index));
+            }
+            response.setResult(lists);
+
+        }
         return response;
+
+
 
     }
 
 
 
     @RequestMapping(value = "/add-group",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_VALUE)
-    public Response<Boolean> findProjectGroupsById(Long id,Long groupId){
-       List<ProjectGroup> lists= projectGroupReadService.findAll();
-        groupId= lists.get(lists.size()-1).getId();
+    public Response<Boolean> addProjectGroups(Long id,HttpServletRequest httpServletRequest){
         Response<Boolean> response =new Response<Boolean>();
-        Project project = projectReadService.findById(id);
-        List<String> ids = project.getGroupsIdsList();
-        ids.add(groupId.toString());
-        project.setGroupsIdsList(ids);
-        projectWriteService.update(project);
-        response.setResult(Boolean.TRUE);
+        HttpSession httpSession = httpServletRequest.getSession();
+        BasicUser basicUser =(BasicUser)httpSession.getAttribute("loginUser@"+httpSession.getId());
+        if (basicUser==null){
+            response.setMessage("用户未登录！");
+            return response;
+        }
+        List<Project> projects = projectReadService.findByCreaterId(basicUser.getId());
+        if (projects.size()>0){
+
+            List<ProjectGroup> lists= projectGroupReadService.findAll();
+            Long groupId= lists.get(lists.size()-1).getId();
+            Project project = projects.get(id.intValue()-1);
+            List<String> ids = project.getGroupsIdsList();
+            if(ids==null){
+                ids=new ArrayList<String>();
+            }
+            ids.add(groupId.toString());
+            project.setGroupsIdsList(ids);
+            projectWriteService.update(project);
+            response.setResult(Boolean.TRUE);
+
+        }
+
+
+
+
         return response;
 
     }
@@ -168,7 +233,7 @@ public class Projects {
     }
 
     @RequestMapping(value = "/create",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_VALUE)
-    public Response<Boolean> createProject(String name,HttpServletRequest httpServletRequest){
+    public Response<Boolean> createProject(String name,String descMessage,HttpServletRequest httpServletRequest){
         Response<Boolean> response = new Response<Boolean>();
 
         HttpSession httpSession = httpServletRequest.getSession();
@@ -183,6 +248,7 @@ public class Projects {
         }
         Project project = new Project();
         project.setName(name);
+        project.setDescMessage(descMessage);
         project.setCreaterId(basicUser.getId());
        if(!projectWriteService.create(project)){
            response.setMessage("项目启动失败！");

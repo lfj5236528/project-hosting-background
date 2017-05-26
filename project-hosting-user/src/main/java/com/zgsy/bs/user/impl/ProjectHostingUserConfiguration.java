@@ -10,5 +10,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @Configuration
 @ImportResource("classpath:dubbo.xml")
 @EnableScheduling
-public class ProjectHostingUserConfiguration {
+public class ProjectHostingUserConfiguration{
+
 }
