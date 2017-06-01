@@ -29,13 +29,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="project-hosting" target="1.6" />
-      <module name="project-hosting-common" target="1.6" />
+      <module name="project-hosting" target="1.8" />
+      <module name="project-hosting-common" target="1.8" />
       <module name="project-hosting-core" target="1.6" />
       <module name="project-hosting-core-api" target="1.6" />
-      <module name="project-hosting-user" target="1.6" />
-      <module name="project-hosting-user-api" target="1.6" />
-      <module name="project-hosting-web" target="1.6" />
+      <module name="project-hosting-user" target="1.8" />
+      <module name="project-hosting-user-api" target="1.8" />
+      <module name="project-hosting-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

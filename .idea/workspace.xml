@@ -2,37 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977447a9-53e2-4781-9c57-37842aec736a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-hosting-core-api/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-hosting-core-api/project-hosting-core-api.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-hosting-core-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-hosting-core/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-hosting-core/project-hosting-core.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-hosting-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/dao/MyBatisDao.class" afterPath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/dao/MyBatisDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/model/Paging.class" afterPath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/model/Paging.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/model/Response.class" afterPath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/model/Response.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/model/TableInfo.class" afterPath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/model/TableInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/utils/Arguments.class" afterPath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/utils/Arguments.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/utils/EncryptUtil.class" afterPath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/utils/EncryptUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/utils/MysqlUtils.class" afterPath="$PROJECT_DIR$/project-hosting-common/target/classes/com/zgsy/bs/common/utils/MysqlUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectAndGroupName.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectAndGroupName.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectGroupAndTeam.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectGroupAndTeam.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectGroupDetail.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectGroupDetail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectTaskAndStatus.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectTaskAndStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectTaskDetail.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectTaskDetail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectTaskModel.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/ProjectTaskModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/TaskUser.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/TaskUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/UserReply.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/dto/UserReply.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/enums/TaskStatus.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/enums/TaskStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/enums/UserStatus.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/enums/UserStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/BasicUser$1.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/BasicUser$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/BasicUser$2.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/BasicUser$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/BasicUser.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/BasicUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/NotifyArticle$1.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/NotifyArticle$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/NotifyArticle.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/NotifyArticle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/OperatorRole$1.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/OperatorRole$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/OperatorRole$2.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/OperatorRole$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/OperatorRole.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/OperatorRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/Project$1.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/Project$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/Project.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/Project.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectGroup$1.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectGroup$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectGroup$2.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectGroup$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectGroup.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectTask$1.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectTask$2.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectTask$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectTask.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/ProjectTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/UserPost$1.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/UserPost$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/UserPost$2.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/UserPost$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/UserPost.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/model/UserPost.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/BasicUserReadService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/BasicUserReadService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/BasicUserWriteService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/BasicUserWriteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/NotifyArticleReadService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/NotifyArticleReadService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/NotifyArticleWriteService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/NotifyArticleWriteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectGroupReadService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectGroupReadService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectGroupWriteService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectGroupWriteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectReadService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectReadService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectTaskReadService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectTaskReadService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectTaskWriteService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectTaskWriteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectWriteService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/ProjectWriteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/UserPostReadService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/UserPostReadService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/UserPostWriteService.class" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/classes/com/zgsy/bs/user/service/UserPostWriteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/ProjectHostingUserApplication.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/ProjectHostingUserApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/BasicUserDao.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/BasicUserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/NotifyArticleDao.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/NotifyArticleDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/ProjectDao.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/ProjectDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/ProjectGroupDao.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/ProjectGroupDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/ProjectTaskDao.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/ProjectTaskDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/UserPostDao.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/dao/UserPostDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/jobs/TaskHandler.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/jobs/TaskHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/manager/UserAndGroupManager.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/manager/UserAndGroupManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/BasicUserReadServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/BasicUserReadServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/BasicUserWriteServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/BasicUserWriteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/NotifyArticleReadServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/NotifyArticleReadServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/NotifyArticleWriteServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/NotifyArticleWriteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectGroupReadServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectGroupReadServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectGroupWriteServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectGroupWriteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectReadServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectReadServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectTaskReadServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectTaskReadServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectTaskWriteServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectTaskWriteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/UserPostReadServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/UserPostReadServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/UserPostWriteServiceImpl.class" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/com/zgsy/bs/user/impl/serivce/UserPostWriteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/ProjectHostingWebApplication.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/ProjectHostingWebApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/ProjectHostingWebConfiguration.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/ProjectHostingWebConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/article/NotifyArticles.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/article/NotifyArticles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/code/DataBaseCode.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/code/DataBaseCode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/group/ProjectGroups.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/group/ProjectGroups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/post/UserPosts.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/post/UserPosts.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/project/Projects.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/project/Projects.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/task/ProjectTasks.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/task/ProjectTasks.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/user/Users.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/controller/user/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/interceptors/CrossOriginInterceptor.class" afterPath="$PROJECT_DIR$/project-hosting-web/target/classes/com/zgsy/bs/web/interceptors/CrossOriginInterceptor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/dao/MyBatisDao.java" afterPath="$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/dao/MyBatisDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/MysqlUtils.java" afterPath="$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/MysqlUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectGroup.java" afterPath="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/BasicUserDao.java" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/BasicUserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/NotifyArticleReadServiceImpl.java" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/NotifyArticleReadServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectTaskMapper.xml" afterPath="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectTaskMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/classes/mapper/projectTaskMapper.xml" afterPath="$PROJECT_DIR$/project-hosting-user/target/classes/mapper/projectTaskMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/project-hosting-common.iml" afterPath="$PROJECT_DIR$/project-hosting-common/project-hosting-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/project-hosting-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/project-hosting-user-api.iml" afterPath="$PROJECT_DIR$/project-hosting-user-api/project-hosting-user-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/project-hosting-user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/pom.xml" afterPath="$PROJECT_DIR$/project-hosting-user/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/project-hosting-user.iml" afterPath="$PROJECT_DIR$/project-hosting-user/project-hosting-user.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/project-hosting-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/pom.xml" afterPath="$PROJECT_DIR$/project-hosting-web/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/project-hosting-web.iml" afterPath="$PROJECT_DIR$/project-hosting-web/project-hosting-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/group/ProjectGroups.java" afterPath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/group/ProjectGroups.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java" afterPath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java" afterPath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/user/Users.java" afterPath="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/user/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/project-hosting-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-hosting.iml" afterPath="$PROJECT_DIR$/project-hosting.iml" />
     </list>
     <ignored path="project-hosting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,21 +133,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectTasks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7800">
-              <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Users.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/user/Users.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="90" column="28" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="28" />
+            <state relative-caret-position="675">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/jobs/TaskHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="44" column="64" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#894#907#0" expanded="false" />
+                <element signature="e#960#973#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectTasks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5850">
+              <caret line="256" column="64" selection-start-line="256" selection-start-column="53" selection-end-line="256" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1971#1980#0" expanded="false" />
+                <element signature="e#2238#2254#0" expanded="false" />
+                <element signature="e#3446#3465#0" expanded="false" />
+                <element signature="e#4373#4391#0" expanded="false" />
+                <element signature="e#5558#5577#0" expanded="false" />
+                <element signature="e#6207#6216#0" expanded="false" />
+                <element signature="e#6474#6490#0" expanded="false" />
+                <element signature="e#7912#7934#0" expanded="false" />
+                <element signature="e#8745#8755#0" expanded="false" />
+                <element signature="e#9189#9200#0" expanded="false" />
+                <element signature="e#10628#10637#0" expanded="false" />
+                <element signature="e#11400#11409#0" expanded="false" />
+                <element signature="e#12451#12470#0" expanded="false" />
+                <element signature="e#12888#12901#0" expanded="false" />
+                <element signature="e#13625#13644#0" expanded="false" />
+                <element signature="e#14061#14080#0" expanded="false" />
+                <element signature="e#14516#14541#0" expanded="false" />
+                <element signature="e#14951#14970#0" expanded="false" />
+                <element signature="e#15679#15687#0" expanded="false" />
+                <element signature="e#16464#16473#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="87" column="68" selection-start-line="87" selection-start-column="68" selection-end-line="87" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -113,10 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectTask.java" />
-        <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectTaskWriteService.java" />
-        <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectTaskWriteServiceImpl.java" />
-        <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectGroupWriteService.java" />
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectGroupWriteServiceImpl.java" />
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/dao/ProjectTaskDao.java" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/DataBaseCode.java" />
@@ -164,6 +290,10 @@
         <option value="$PROJECT_DIR$/project-hosting-user/src/main/resources/mapper/projectTaskMapper.xml" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/project/Projects.java" />
         <option value="$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java" />
+        <option value="$PROJECT_DIR$/project-hosting-web/pom.xml" />
+        <option value="$PROJECT_DIR$/project-hosting-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectTask.java" />
       </list>
     </option>
   </component>
@@ -244,8 +374,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="project-hosting">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="project-hosting">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -318,10 +463,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -350,40 +491,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interceptors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,200 +576,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="group" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="project-hosting-user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -706,8 +619,18 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -721,7 +644,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user" />
+              <option name="myItemId" value="project-hosting-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-hosting-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -732,14 +673,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -751,37 +684,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-hosting-user" />
+              <option name="myItemId" value="project-hosting-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -797,34 +700,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serivce" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="project-hosting">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="project-hosting">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="Scratches">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -1343,12 +1227,14 @@
       <workItem from="1495692550613" duration="7351000" />
       <workItem from="1495703191767" duration="8048000" />
       <workItem from="1495775090822" duration="5388000" />
-      <workItem from="1495782289258" duration="228000" />
+      <workItem from="1495782289258" duration="1389000" />
+      <workItem from="1496215056972" duration="3230000" />
+      <workItem from="1496230502562" duration="729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315348000" />
+    <option name="totallyTimeSpent" value="320468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1370,7 +1256,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44642857" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44642857" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1397,7 +1283,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="263" />
+      <option name="time" value="266" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1406,38 +1292,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/service/ProjectWriteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-common/src/main/java/com/zgsy/bs/common/utils/UserUtils.java" />
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/code/DataBaseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/ProjectHostingUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/serivce/ProjectWriteServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar!/org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1449,16 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <marker date="1495099301517" expanded="true" signature="1774:1904" placeholder="INSERT INTO " />
-            <marker date="1495099301517" expanded="true" signature="2001:2089" placeholder="SELECT FROM WHERE" />
-            <marker date="1495099301517" expanded="true" signature="2163:2246" placeholder="SELECT FROM WHERE" />
-            <marker date="1495099301517" expanded="true" signature="2348:2451" placeholder="SELECT FROM WHERE" />
-            <marker date="1495099301517" expanded="true" signature="2525:3030" placeholder="UPDATE name " />
-            <marker date="1495099301517" expanded="true" signature="3100:3158" placeholder="DELETE FROM " />
-            <marker date="1495099301517" expanded="true" signature="3247:3267" placeholder="SELECT count... " />
-            <marker date="1495099301517" expanded="true" signature="3454:3622" placeholder="SELECT FROM LIMIT" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1487,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
           <caret line="123" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,13 +1398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/jobs/TaskHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="111" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1587,15 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="9" />
-          <folding>
-            <marker date="1494337052652" expanded="true" signature="2160:2295" placeholder="INSERT INTO " />
-            <marker date="1494337052652" expanded="true" signature="2393:2503" placeholder="SELECT FROM WHERE" />
-            <marker date="1494337052652" expanded="true" signature="2609:2727" placeholder="SELECT FROM WHERE" />
-            <marker date="1494337052652" expanded="true" signature="2804:3448" placeholder="UPDATE name " />
-            <marker date="1494337052652" expanded="true" signature="3518:3584" placeholder="DELETE FROM " />
-            <marker date="1494337052652" expanded="true" signature="3880:3900" placeholder="SELECT count... " />
-            <marker date="1494337052652" expanded="true" signature="4097:4289" placeholder="SELECT FROM LIMIT" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1710,9 +1537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1748,28 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-41">
           <caret line="117" column="74" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
-          <folding>
-            <marker date="1495779589965" expanded="true" signature="2243:2373" placeholder="INSERT INTO " />
-            <marker date="1495779589965" expanded="true" signature="2475:2563" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="2642:2724" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="2828:2925" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="3034:3156" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="3264:3363" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="3469:3570" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="3695:3818" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="3695:3822" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="3695:3837" placeholder="SELECT FROM WHERE" />
-            <marker date="1495779589965" expanded="true" signature="3916:4612" placeholder="UPDATE name " />
-            <marker date="1495779589965" expanded="true" signature="4682:4740" placeholder="DELETE FROM " />
-            <marker date="1495779589965" expanded="true" signature="4829:4849" placeholder="SELECT count... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="87" column="43" selection-start-line="87" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1794,18 +1596,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7800">
-          <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/user/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="90" column="28" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user/src/main/java/com/zgsy/bs/user/impl/jobs/TaskHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="44" column="64" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#894#907#0" expanded="false" />
+            <element signature="e#960#973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-web/src/main/java/com/zgsy/bs/web/controller/task/ProjectTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="256" column="64" selection-start-line="256" selection-start-column="53" selection-end-line="256" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1971#1980#0" expanded="false" />
+            <element signature="e#2238#2254#0" expanded="false" />
+            <element signature="e#3446#3465#0" expanded="false" />
+            <element signature="e#4373#4391#0" expanded="false" />
+            <element signature="e#5558#5577#0" expanded="false" />
+            <element signature="e#6207#6216#0" expanded="false" />
+            <element signature="e#6474#6490#0" expanded="false" />
+            <element signature="e#7912#7934#0" expanded="false" />
+            <element signature="e#8745#8755#0" expanded="false" />
+            <element signature="e#9189#9200#0" expanded="false" />
+            <element signature="e#10628#10637#0" expanded="false" />
+            <element signature="e#11400#11409#0" expanded="false" />
+            <element signature="e#12451#12470#0" expanded="false" />
+            <element signature="e#12888#12901#0" expanded="false" />
+            <element signature="e#13625#13644#0" expanded="false" />
+            <element signature="e#14061#14080#0" expanded="false" />
+            <element signature="e#14516#14541#0" expanded="false" />
+            <element signature="e#14951#14970#0" expanded="false" />
+            <element signature="e#15679#15687#0" expanded="false" />
+            <element signature="e#16464#16473#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-hosting-user-api/src/main/java/com/zgsy/bs/user/model/ProjectTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="87" column="68" selection-start-line="87" selection-start-column="68" selection-end-line="87" selection-end-column="68" />
           <folding />
         </state>
       </provider>
